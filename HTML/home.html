@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Communication Conversions</title>
+    
+    <!-- Bootstrap start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap end -->
+
+    <!-- Own style start -->
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- Own style end-->
+</head>
+<body>
+    <div class="container-xxl " >
+        
+        <div class="header">
+            <div class="text">
+                <h3>Green University of Bangladesh</h3>
+            </div>
+            <div class="images">
+                <div class="img_1">
+                    <img  src="/IMAGES/download.jfif" alt="Green University of Bangladesh">
+                </div>
+                <div class="img_2">
+                    <img src="/IMAGES/download.png" alt="Green University of Bangladesh">
+                </div>
+            </div>
+        </div>
+        <!-- Main section start -->
+        <div class="main">
+            <div class="dropdown-box">
+                <form>
+                    <label for="Conversions" class="form-label"> Choose One : </label>
+                    <select class="form-select" id="Conversions" name="Conversions">
+                        <option value="Select-One-Option"> Select One Option </option>
+                        <option value="Bit-Stuffing"> Bit Stuffing </option>
+                        <option value="Bit-De-Stuffing"> Bit De-Stuffing </option>
+                        <option value="Character-Stuffing"> Character Stuffing </option>
+                        <option value="Character-De-Stuffing"> Character De-Stuffing </option>
+                        <option value="Hamming-Distance"> Hamming Distance </option>
+                        <option value="Parity-Check"> Parity Check </option>
+                    </select>
+                    <br><br><br><br><br><br>
+                    <div class="mb-3 mt-3">
+                        <label for="input_1">INPUT:</label>
+                        <input type="number" class="form-control" id="input_1" placeholder="01001100" name="input_1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="input_2">INPUT:</label>
+                        <input type="number" class="form-control" id="input_2" placeholder="01001100" name="input_2">
+                    </div>
+                    <div class="mb-3">
+                        <label for="flag">FLAG:</label>
+                        <input type="number" class="form-control" id="flag" placeholder="01001100" name="flag">
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="output">OUTPUT:</label>
+                        <textarea class="form-control" rows="5" id="output" name="output"></textarea>
+                    </div>
+                    <div class="button">
+                    <button type="button" class="btn btn-success">Bit Stuffing</button>
+                    <button type="button" class="btn btn-success">Bit De-Stuffing</button>
+                    <button type="button" class="btn btn-success">Character Stuffing</button>
+                    <button type="button" class="btn btn-success">Character De-Stuffing</button>
+                    <button type="button" class="btn btn-success"> Hamming Distance</button>
+                    <button type="button" class="btn btn-success">Parity Check</button>
+                    <br>
+                    <button type="reset" class="btn btn-success">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Main section end -->
+    </div>
+    <!-- Bootstrao start -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- Bootstrao end -->
+    <!-- Own script start -->
+    <script src="/JAVASCRIPT/script.js"></script>
+    <!-- Own script end -->
+</body>
+</html>

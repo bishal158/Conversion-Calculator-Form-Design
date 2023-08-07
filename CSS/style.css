@@ -1,0 +1,84 @@
+body{
+    background-color: white;
+}
+.container-xxl{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: 5px auto;
+    border: #777 solid 2px;
+    height: 1450px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/** Header Section Star **/
+.header{
+    /**border: #777 1px solid; **/
+    height: fit-content;
+    float: left;
+    width: 100%;
+    margin: 15px auto;
+}
+.header .images .img_1  {
+    float: left;
+}
+.header .images .img_2 {
+    float: right;
+}
+.images .img_1 img {
+    border-radius: 50%;
+    border: green solid 2px;
+    margin: 5px auto;
+}
+.images .img_2 img{
+    border-radius: 50%;
+    border: green solid 2px;
+    margin: 5px auto;
+}
+.images .img_1 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.images .img_2 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.text {
+    text-align: center;
+    margin: 5px auto;
+    border: royalblue solid 2px;
+    width: 40%;
+    height: 70px;
+    transition: width 2s, height 4s;
+    color: black;
+    border-radius: 40px;
+    background-color: lightgreen;
+}
+.text:hover{
+    transform: scale(1.5px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 45%;
+    height: 90px;
+}
+/** Header Section End **/
+/** Main Section Start **/
+.main{
+    float: left;
+    /**border: #777 solid 1px;**/
+    height: 950px;
+    width: 100%;
+    margin: 10px auto;
+}
+.dropdown-box{
+    margin: 15px auto;
+    width: 100%;
+    height: 220px;
+}
+.dropdown-box form{
+    margin: auto 450px;
+}
+button{
+    margin: 15px auto;
+    
+}
+select option{
+    margin: 5px auto;
+    border-radius: 100px;
+}
+/** Main Section End **/
